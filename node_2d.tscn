@@ -16,4 +16,5 @@ offset_right = 255.0
 offset_bottom = 161.0
 text = "Toggle motion"
 
+[connection signal="health_changed" from="Sprite2D" to="Sprite2D" method="_on_health_changed"]
 [connection signal="pressed" from="Button" to="Sprite2D" method="_on_button_pressed"]
